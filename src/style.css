@@ -1,0 +1,49 @@
+:root {
+  --darkish: #111;
+  --primary: #202054;
+  --secondary: #f0b73f;
+  --clear: #fffcf9;
+  --grey: #141a29;
+  --light_grey: #636a7d;
+  --lighestgrey: #ebebeb;
+  --axiagrey: #bdbdbd;
+  --brown: #faf5ee;
+  --darkgrey: #3f3f3f;
+}
+body {
+  background-color: var(--clear);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  /* height: 0.4rem; */
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--clear);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--darkgrey);
+  border-radius: 5rem;
+}
+
+.btn-primary {
+  box-shadow: 8px 8px var(--darkish);
+  border: 3px solid var(--darkish);
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  color: var(--darkish);
+  font-weight: 600;
+  padding-inline: 1.5rem;
+  padding-block: 0.75rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.btn-primary:hover {
+  background: var(--grey);
+  box-shadow: 8.75px 8.75px var(--secondary);
+  color: var(--clear);
+}
