@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/tiempos-headline");
+
 :root {
   --darkish: #111;
   --primary: #202054;
@@ -9,13 +11,28 @@
   --axiagrey: #bdbdbd;
   --brown: #faf5ee;
   --darkgrey: #3f3f3f;
+  --light_red: #ab2638;
+}
+@font-face {
+  font-family: avenir;
+  src: url(/avenir.ttf);
 }
 body {
   background-color: var(--clear);
+  font-family: avenir, sans-serif;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tiempos Headline", sans-serif;
+}
 
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -46,4 +63,10 @@ body {
   background: var(--grey);
   box-shadow: 8.75px 8.75px var(--secondary);
   color: var(--clear);
+}
+
+.gradient {
+  background-image: linear-gradient(65deg, var(--light_red), var(--secondary));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
