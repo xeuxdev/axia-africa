@@ -1,6 +1,7 @@
 <script setup>
 import HeaderComponent from "./components/HeaderComponent.vue"
 import HeroSection from "./components/HeroSection.vue"
+import CoursesSection from "./components/CoursesSection.vue"
 </script>
 
 <template>
@@ -8,5 +9,6 @@ import HeroSection from "./components/HeroSection.vue"
 
   <main class="relative pt-28">
     <HeroSection />
+    <CoursesSection />
   </main>
 </template>
