@@ -19,7 +19,7 @@
       </div>
       <!-- image -->
       <img
-        src="/images/advisor.svg"
+        src="/images/advisor.webp"
         alt="advisor"
         class="w-full sm:w-2/4 md:w-full lg:w-2/4"
       />

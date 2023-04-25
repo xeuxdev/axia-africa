@@ -16,7 +16,7 @@
         class="relative bg-brown z-10 before:absolute before:-z-10 before:border-[3px] before:border-darkish before:border-r-0 before:h-[90%] before:w-[90%] before:-bottom-4 before:-left-3"
       >
         <img
-          src="/images/course1.png"
+          src="/images/course1.webp"
           alt="Product Design"
           class="w-full h-36 md:h-60"
         />
@@ -54,7 +54,7 @@
         class="relative bg-brown z-10 before:absolute before:-z-10 before:border-[3px] before:border-darkish before:border-r-0 before:h-[90%] before:w-[90%] before:-bottom-4 before:-left-3"
       >
         <img
-          src="/images/course2.png"
+          src="/images/course2.webp"
           alt="Data Analytics"
           class="w-full h-36 md:h-60"
         />
@@ -93,7 +93,7 @@
         class="relative bg-brown z-10 before:absolute before:-z-10 before:border-[3px] before:border-darkish before:border-r-0 before:h-[90%] before:w-[90%] before:-bottom-4 before:-left-3"
       >
         <img
-          src="/images/course3.png"
+          src="/images/course3.webp"
           alt="Front-End Development"
           class="w-full h-36 md:h-60"
         />

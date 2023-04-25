@@ -10,7 +10,7 @@
         class="flex items-center justify-between w-full flex-col-reverse lg:items-start lg:flex-row gap-10 md:gap-20"
       >
         <img
-          src="/images/onboard.svg"
+          src="/images/onboard.webp"
           alt="onboard with us"
           class="w-full sm:w-2/4 md:w-full lg:w-2/4"
         />

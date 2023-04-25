@@ -44,7 +44,7 @@
       <div
         class="md:absolute md:top-0 md:right-6 md:w-[57vw] w-[90%] mt-10 md:mt-0 max-w-[43.75rem] mx-auto md:mx-0"
       >
-        <img src="/images/hero-image.svg" alt="Hero Image" />
+        <img src="/images/hero-image.webp" alt="Hero Image" />
       </div>
     </div>
   </section>

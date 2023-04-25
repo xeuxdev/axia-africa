@@ -5,7 +5,7 @@
         Foster your tech knowledge
       </h6>
       <img
-        src="/images/foster.png"
+        src="/images/foster.webp"
         alt="foster"
         class="w-full min-h-[17.625rem] object-cover"
       />
