@@ -3,11 +3,13 @@ import SocialComponent from "./SocialComponent.vue"
 </script>
 
 <template>
-  <div class="container px-5 md:px-[9.375rem]">
+  <div class="container px-5 lg:px-[9.375rem]">
     <div
-      class="grid grid-cols-2 lg:grid-cols-12 gap-8 gap-y-20 md:gap-10 mt-11 md:mt-0 w-full"
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-8 gap-y-20 md:gap-10 mt-11 md:mt-0 w-full"
     >
-      <div class="flex flex-col col-span-2 lg:col-span-5 space-y-4">
+      <div
+        class="flex flex-col col-span-2 md:col-span-3 lg:col-span-5 space-y-4"
+      >
         <img src="/logo-white.svg" alt="axia africa" class="w-20 block" />
         <p class="text-lighestgrey md:max-w-[22rem]">
           An organization that is focused on equipping African youths with the

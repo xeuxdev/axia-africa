@@ -6,7 +6,7 @@ import { reviewData } from "../data/reviewData"
 
 <template>
   <section class="w-full my-24">
-    <div class="container px-5 md:px-[9.375rem]">
+    <div class="container px-5 lg:px-[9.375rem]">
       <!-- text -->
       <div class="space-y-5">
         <header

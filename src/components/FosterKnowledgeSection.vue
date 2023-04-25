@@ -1,6 +1,6 @@
 <template>
   <section class="bg-darkish py-20 md:py-28">
-    <div class="container px-5 md:px-[9.375rem] space-y-14">
+    <div class="container px-5 lg:px-[9.375rem] space-y-14">
       <h6 class="font-medium text-[1.75rem] md:text-4xl text-white">
         Foster your tech knowledge
       </h6>

@@ -1,10 +1,10 @@
 <template>
   <section class="bg-primary w-full py-20 md:py-36">
     <div
-      class="container flex items-center justify-between px-5 md:px-[9.375rem] gap-10 flex-col lg:flex-row"
+      class="container flex items-center justify-between px-5 lg:px-[9.375rem] gap-10 flex-col lg:flex-row"
     >
       <!-- text -->
-      <div class="max-w-md space-y-6 mb-12 lg:mb-0">
+      <div class="max-w-md md:max-w-2xl space-y-6 mb-12 lg:mb-0">
         <h3 class="font-medium text-white text-2xl md:text-4xl">
           Confused about what to learn?
         </h3>
@@ -18,7 +18,11 @@
         </div>
       </div>
       <!-- image -->
-      <img src="/images/advisor.svg" alt="advisor" class="w-full sm:w-[50%]" />
+      <img
+        src="/images/advisor.svg"
+        alt="advisor"
+        class="w-full sm:w-2/4 md:w-full lg:w-2/4"
+      />
     </div>
   </section>
 </template>

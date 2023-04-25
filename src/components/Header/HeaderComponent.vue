@@ -102,7 +102,7 @@ function toggleMobile() {
       </div>
 
       <!-- hamburger -->
-      <div class="cursor-pointer lg:hidden" @click="toggleMobile">
+      <div class="cursor-pointer md:hidden" @click="toggleMobile">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"

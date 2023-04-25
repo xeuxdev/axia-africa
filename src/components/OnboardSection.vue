@@ -1,6 +1,6 @@
 <template>
   <section id="onboard" class="bg-darkish py-12 md:py-28">
-    <div class="container px-5 md:px-[9.375rem] space-y-12 md:space-y-20">
+    <div class="container px-5 lg:px-[9.375rem] space-y-12 md:space-y-20">
       <h4 class="font-medium text-[1.75rem] md:text-4xl text-white">
         Get onboard with us
       </h4>
@@ -12,7 +12,7 @@
         <img
           src="/images/onboard.svg"
           alt="onboard with us"
-          class="w-full sm:w-2/4"
+          class="w-full sm:w-2/4 md:w-full lg:w-2/4"
         />
         <div class="space-y-10 text-lighestgrey">
           <svg

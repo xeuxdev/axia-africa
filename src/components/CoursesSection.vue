@@ -10,7 +10,7 @@
       your tech career.
     </p>
 
-    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
       <!-- product design -->
       <article
         class="relative bg-brown z-10 before:absolute before:-z-10 before:border-[3px] before:border-darkish before:border-r-0 before:h-[90%] before:w-[90%] before:-bottom-4 before:-left-3"
