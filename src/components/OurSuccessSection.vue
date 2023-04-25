@@ -6,7 +6,7 @@ import { reviewData } from "../data/reviewData"
 
 <template>
   <section class="w-full my-24">
-    <div class="container px-5 md:px-[9.375rem] space-y-24">
+    <div class="container px-5 md:px-[9.375rem]">
       <!-- text -->
       <div class="space-y-5">
         <header
@@ -20,30 +20,31 @@ import { reviewData } from "../data/reviewData"
           What our students are saying about their learning experience.
         </p>
       </div>
-      <!-- marque -->
-      <div class="flex gap-5">
-        <Vue3Marquee duration="80">
-          <!-- cards -->
-          <template v-for="review in reviewData" :key="review.id">
-            <div
-              class="relative bg-brown flex justify-between flex-col mx-5 p-6 w-[23.4375rem] min-h-[20rem]"
-            >
-              <p class="text-sm md:text-base text-darkgrey font-medium">
-                {{ review.review }}
-              </p>
-              <div class="flex items-center gap-5">
-                <img
-                  :src="'/images/reviews/' + review.id + '.png'"
-                  :alt="review.name"
-                />
-                <header class="font-bold ml-5 md:text-xl text-lg text-darkgrey">
-                  {{ review.name }}
-                </header>
-              </div>
+    </div>
+    <!-- marque -->
+    <div class="flex gap-5 mt-24">
+      <Vue3Marquee :duration="80" :pauseOnHover="true">
+        <!-- cards -->
+        <template v-for="review in reviewData" :key="review.id">
+          <div
+            class="relative bg-brown flex justify-between flex-col mx-5 p-6 w-[23.4375rem] min-h-[24rem]"
+          >
+            <p class="text-sm md:text-base text-darkgrey font-medium">
+              {{ review.review }}
+            </p>
+            <div class="flex items-center gap-5">
+              <img
+                :src="'/images/reviews/' + review.id + '.png'"
+                :alt="review.name"
+                class="h-14 md:h-auto"
+              />
+              <header class="font-bold ml-5 md:text-xl text-lg text-darkgrey">
+                {{ review.name }}
+              </header>
             </div>
-          </template>
-        </Vue3Marquee>
-      </div>
+          </div>
+        </template>
+      </Vue3Marquee>
     </div>
   </section>
 </template>
