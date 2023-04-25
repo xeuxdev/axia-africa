@@ -4,23 +4,23 @@
   >
     <div class="flex items-center justify-between w-full flex-col md:flex-row">
       <!-- text -->
-      <div class="max-w-[560px] space-y-8">
+      <div class="max-w-[560px]">
         <h1
           class="headline text-[2rem] text-center font-medium text-darkish md:text-start md:text-[2.8125rem]"
         >
           Accelerate your career with
           <span class="gradient">Job-ready</span>
-          tech Skills
+          tech skills.
         </h1>
         <p
-          class="text-darkgrey text-base md:text-lg text-center md:text-left max-w-md"
+          class="text-darkgrey text-base md:text-lg text-center md:text-left max-w-md mt-8"
         >
           Begin your tech journey and expand your career opportunities in the
           tech space by learning tech skills in demand.
         </p>
 
         <!-- ctas -->
-        <div class="flex items-center gap-10 flex-col md:flex-row">
+        <div class="flex items-center gap-10 flex-col md:flex-row mt-10">
           <a class="btn-primary" href="/application">Apply Now</a>
           <a
             href="/"

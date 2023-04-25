@@ -15,10 +15,14 @@ function toggleMobile() {
     class="w-full md:h-[6.3125rem] center fixed z-20 inset-x-0 !bg-[#FFFCF9] flex items-center px-5 md:px-0 h-14 shadow-md"
   >
     <nav
-      class="container md:px-[9.375rem] mx-auto flex items-center justify-between"
+      class="container md:px-[9.375rem] mx-auto flex items-center justify-between h-full"
     >
       <a href="/" class="">
-        <img src="/logo.svg" alt="axia africa logo" class="w-[4.875rem]" />
+        <img
+          src="/logo.svg"
+          alt="axia africa logo"
+          class="w-[4.875rem] md:w-auto"
+        />
       </a>
       <!-- nav links -->
       <div class="hidden lg:flex items-center gap-7">
