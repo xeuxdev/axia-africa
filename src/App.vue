@@ -6,6 +6,7 @@ import AdvisorSection from "./components/AdvisorSection.vue"
 import OnboardSection from "./components/OnboardSection.vue"
 import DiscoverSection from "./components/DiscoverSection.vue"
 import FosterKnowledgeSection from "./components/FosterKnowledgeSection.vue"
+import OurSuccessSection from "./components/OurSuccessSection.vue"
 </script>
 
 <template>
@@ -18,5 +19,6 @@ import FosterKnowledgeSection from "./components/FosterKnowledgeSection.vue"
     <OnboardSection />
     <DiscoverSection />
     <FosterKnowledgeSection />
+    <OurSuccessSection />
   </main>
 </template>
