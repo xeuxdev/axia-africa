@@ -8,6 +8,7 @@ import DiscoverSection from "./components/DiscoverSection.vue"
 import FosterKnowledgeSection from "./components/FosterKnowledgeSection.vue"
 import OurSuccessSection from "./components/OurSuccessSection.vue"
 import PartnerSection from "./components/PartnerSection.vue"
+import FooterComponent from "./components/Footer/FooterComponent.vue"
 </script>
 
 <template>
@@ -23,4 +24,11 @@ import PartnerSection from "./components/PartnerSection.vue"
     <OurSuccessSection />
     <PartnerSection />
   </main>
+
+  <footer
+    id="footer"
+    class="bg-primary text-white p-5 py-12 md:pt-24 md:pb-14 w-full mx-auto"
+  >
+    <FooterComponent />
+  </footer>
 </template>
