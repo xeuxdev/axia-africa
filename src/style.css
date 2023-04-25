@@ -58,6 +58,8 @@ h6 {
   padding-block: 0.75rem;
   line-height: 1.5rem;
   font-size: 1rem;
+  display: block;
+  width: fit-content;
 }
 .btn-primary:hover {
   background: var(--grey);
@@ -76,6 +78,8 @@ h6 {
   padding-block: 0.75rem;
   line-height: 1.5rem;
   font-size: 1rem;
+  display: block;
+  width: fit-content;
 }
 .btn-secondary:hover {
   background: white;
