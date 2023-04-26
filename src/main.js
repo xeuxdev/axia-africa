@@ -4,7 +4,7 @@ import "./style.css"
 import App from "./App.vue"
 import HomePage from "./pages/Home/HomePage.vue"
 import SchoolOfProduct from "./pages/Schools/SchoolOfProduct.vue"
-import DataPage from "./pages/Schools/DataPage.vue"
+import SchoolOfData from "./pages/Schools/SchoolOfData.vue"
 import SchoolOfEngineering from "./pages/Schools/SchoolOfEngineering.vue"
 
 const router = createRouter({
@@ -12,7 +12,7 @@ const router = createRouter({
   routes: [
     { path: "/", name: "Home", component: HomePage },
     { path: "/schools/product", name: "Product", component: SchoolOfProduct },
-    { path: "/schools/data", name: "Data", component: DataPage },
+    { path: "/schools/data", name: "Data", component: SchoolOfData },
     {
       path: "/schools/engineering",
       name: "Engineering",
