@@ -1,13 +1,13 @@
 <script setup>
 import HeaderComponent from "../../components/Header/HeaderComponent.vue"
-import HeroSection from "../../components/HeroSection.vue"
-import CoursesSection from "../../components/CoursesSection.vue"
-import AdvisorSection from "../../components/AdvisorSection.vue"
-import OnboardSection from "../../components/OnboardSection.vue"
-import DiscoverSection from "../../components/DiscoverSection.vue"
-import FosterKnowledgeSection from "../../components/FosterKnowledgeSection.vue"
-import OurSuccessSection from "../../components/OurSuccessSection.vue"
-import PartnerSection from "../../components/PartnerSection.vue"
+import HeroSection from "../../components/Home/HeroSection.vue"
+import CoursesSection from "../../components/Home/CoursesSection.vue"
+import AdvisorSection from "../../components/Home/AdvisorSection.vue"
+import OnboardSection from "../../components/Home/OnboardSection.vue"
+import DiscoverSection from "../../components/Home/DiscoverSection.vue"
+import FosterKnowledgeSection from "../../components/Home/FosterKnowledgeSection.vue"
+import OurSuccessSection from "../../components/Home/OurSuccessSection.vue"
+import PartnerSection from "../../components/Home/PartnerSection.vue"
 import FooterComponent from "../../components/Footer/FooterComponent.vue"
 </script>
 

@@ -1,7 +1,7 @@
 <script setup>
 import { Vue3Marquee } from "vue3-marquee"
 import "vue3-marquee/dist/style.css"
-import { reviewData } from "../data/reviewData"
+import { reviewData } from "../../data/reviewData"
 </script>
 
 <template>
