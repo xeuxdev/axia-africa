@@ -12,7 +12,7 @@ function toggleMobile() {
 
 <template>
   <header
-    class="w-full md:h-[6.3125rem] center fixed z-20 inset-x-0 !bg-[#FFFCF9] flex items-center px-5 md:px-0 h-14 shadow-md"
+    class="w-full md:h-[6.3125rem] center fixed z-20 inset-x-0 !bg-[#FFFCF9] flex items-center px-5 md:px-0 h-14"
   >
     <nav
       class="container md:px-[9.375rem] mx-auto flex items-center justify-between h-full"

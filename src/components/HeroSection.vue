@@ -47,5 +47,10 @@
         <img src="/images/hero-image.webp" alt="Hero Image" />
       </div>
     </div>
+    <img
+      src="/images/doddle.svg"
+      alt="jdfdf"
+      class="w-[30vw] absolute -z-0 left-10 max-w-lg mt-12 animate-bounce"
+    />
   </section>
 </template>

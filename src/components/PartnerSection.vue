@@ -17,6 +17,18 @@
       </p>
 
       <a href="/partners" class="btn-primary mx-auto">Learn More</a>
+
+      <!-- doddle -->
+      <img
+        src="/images/doddle3.svg"
+        alt="fjjdbfhdf"
+        class="absolute left-0 -bottom-[6.25rem]"
+      />
+      <img
+        src="/images/doddle4.svg"
+        alt="fhehf"
+        class="absolute right-0 -bottom-[6.25rem]"
+      />
     </div>
   </section>
 </template>
