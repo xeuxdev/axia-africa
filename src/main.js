@@ -3,9 +3,9 @@ import { createRouter, createWebHistory } from "vue-router"
 import "./style.css"
 import App from "./App.vue"
 import HomePage from "./pages/Home/HomePage.vue"
-import SchoolOfProduct from "./pages/Schools/SchoolOfProduct.vue"
-import SchoolOfData from "./pages/Schools/SchoolOfData.vue"
-import SchoolOfEngineering from "./pages/Schools/SchoolOfEngineering.vue"
+import SchoolOfProduct from "src/pages/Schools/SchoolOfProduct.vue"
+import SchoolOfData from "src/pages/Schools/SchoolOfData.vue"
+import SchoolOfEngineering from "src/pages/Schools/SchoolOfEngineering.vue"
 
 const router = createRouter({
   history: createWebHistory(),
