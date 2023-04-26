@@ -6,9 +6,9 @@
       Become a Frontend Developer
     </h1>
     <p class="text-base max-w-[40rem] text-lighestgrey text-center mt-5">
-      The design program is taught by prominent design experts and created as an
-      introductory and research phase approach, taking you through design
-      phases.
+      Begin your journey as a Frontend Developer. We will be teaching you about
+      Frontend Development and also help you build an exceptional portfolio
+      while learning HTML, CSS, JavaScript and React.
     </p>
     <div class="flex flex-col md:flex-row text-lighestgrey gap-6 mt-12">
       <div class="flex gap-3">

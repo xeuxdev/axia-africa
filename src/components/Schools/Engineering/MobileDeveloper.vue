@@ -6,8 +6,8 @@
       Become a Mobile Developer
     </h1>
     <p class="text-base max-w-[40rem] text-lighestgrey text-center mt-5">
-      Aquire top skills that help you define product vision, strategy, and a
-      roadmap to delivering world class product to companies worldwide.
+      Launch your career as a Mobile developer. Build job-ready skills for an
+      in-demand career and earn a credential from Axia Africa
     </p>
     <div class="flex flex-col md:flex-row text-lighestgrey gap-6 mt-12">
       <div class="flex gap-3">

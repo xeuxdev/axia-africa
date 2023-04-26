@@ -6,8 +6,8 @@
       Become a Product Marketer
     </h1>
     <p class="text-base max-w-[40rem] text-lighestgrey text-center mt-5">
-      Aquire top skills that help you define product vision, strategy, and a
-      roadmap to delivering world class product to companies worldwide.
+      Learn how to become a product marketing. Our seasoned coaches help you
+      become one of the most sort after product marketers in the field.
     </p>
     <div class="flex flex-col md:flex-row text-lighestgrey gap-6 mt-12">
       <div class="flex gap-3">
