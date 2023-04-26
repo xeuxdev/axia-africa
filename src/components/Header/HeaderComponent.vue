@@ -1,9 +1,11 @@
 <script setup>
 import { ref } from "vue"
 import JoinOurCommunityPopUp from "./JoinOurCommunityPopUp.vue"
+import ContactPopUp from "./ContactPopUp.vue"
 
 const showMobile = ref(false)
 const showCommunityPopUp = ref(false)
+const showContactPopUp = ref(false)
 
 function toggleMobile() {
   showMobile.value === true
@@ -15,6 +17,12 @@ function toggleCommunityPopUp() {
   showCommunityPopUp.value === true
     ? (showCommunityPopUp.value = false)
     : (showCommunityPopUp.value = true)
+}
+
+function toggleContactPopUp() {
+  showContactPopUp.value === true
+    ? (showContactPopUp.value = false)
+    : (showContactPopUp.value = true)
 }
 </script>
 
@@ -56,13 +64,13 @@ function toggleCommunityPopUp() {
             <div
               class="bg-[#fff] rounded-md w-max space-y-3 px-5 py-3 shadow-lg"
             >
-              <a href="/product" class="text-base font-medium block"
+              <a href="/schools/product" class="text-base font-medium block"
                 >School of Product</a
               >
-              <a href="/enfineering" class="text-base font-medium block"
+              <a href="/schools/engineering" class="text-base font-medium block"
                 >School of Engineering</a
               >
-              <a href="/data" class="text-base font-medium block"
+              <a href="/schools/data" class="text-base font-medium block"
                 >School of Data</a
               >
             </div>
@@ -96,9 +104,12 @@ function toggleCommunityPopUp() {
               class="bg-[#fff] rounded-md w-max space-y-3 px-5 py-3 shadow-lg"
             >
               <a href="/faqs" class="text-base font-medium block">FAQs</a>
-              <a href="/contact" class="text-base font-medium block"
-                >Contact Us</a
+              <button
+                class="text-base font-medium block"
+                @click="toggleContactPopUp"
               >
+                Contact Us
+              </button>
             </div>
           </div>
         </div>
@@ -147,11 +158,13 @@ function toggleCommunityPopUp() {
           <!-- schools -->
           <div class="space-y-8">
             <header class="uppercase font-bold text-base">schools</header>
-            <a href="/product" class="text-sm font-medium block"
+            <a href="/schools/product" class="text-sm font-medium block"
               >School of Product</a
             >
-            <a href="/data" class="text-sm font-medium block">School of Data</a>
-            <a href="/engineering" class="text-sm font-medium block"
+            <a href="/schools/data" class="text-sm font-medium block"
+              >School of Data</a
+            >
+            <a href="/schools/engineering" class="text-sm font-medium block"
               >School of Engineering</a
             >
           </div>
@@ -161,9 +174,12 @@ function toggleCommunityPopUp() {
             <header class="uppercase font-bold text-base">company</header>
             <a href="/#onboard" class="text-sm font-medium block">About</a>
             <a href="/faqs" class="text-sm font-medium block">FAQs</a>
-            <a href="/application" class="text-sm font-medium block"
-              >Join The Community</a
+            <button
+              class="text-sm font-medium block"
+              @click="toggleCommunityPopUp"
             >
+              Join The Community
+            </button>
             <a href="/partners" class="text-sm font-medium block"
               >Partnership</a
             >
@@ -188,5 +204,9 @@ function toggleCommunityPopUp() {
 
   <div v-if="showCommunityPopUp">
     <JoinOurCommunityPopUp :toggleCommunityPopUp="toggleCommunityPopUp" />
+  </div>
+
+  <div v-if="showContactPopUp">
+    <ContactPopUp :toggleContactPopUp="toggleContactPopUp" />
   </div>
 </template>

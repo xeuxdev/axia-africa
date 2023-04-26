@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#0006] fixed inset-0 z-50 w-screen min-h-full flex items-center justify-center transition-all"
+    class="bg-[#0006] fixed top-0 left-0 z-50 w-screen min-h-full flex items-center justify-center transition-all"
   >
     <section
       class="bg-white px-10 md:px-20 py-12 max-w-[74.5rem] w-full relative cursor-pointer animate-show"
