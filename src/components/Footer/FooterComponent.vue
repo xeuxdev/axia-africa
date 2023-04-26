@@ -18,7 +18,7 @@ import SocialComponent from "./SocialComponent.vue"
         <!-- socials -->
         <SocialComponent />
       </div>
-      <div class="flex flex-col lg:col-span-2 gap-8 md:order-2">
+      <div class="flex flex-col lg:col-span-3 gap-8 md:order-2">
         <header class="font-bold md:text-lg">SCHOOLS</header>
         <a
           href="/schools/product"
@@ -36,7 +36,7 @@ import SocialComponent from "./SocialComponent.vue"
           >School of Engineering</a
         >
       </div>
-      <div class="flex flex-col lg:col-span-3 gap-8 md:order-1">
+      <div class="flex flex-col lg:col-span-2 gap-8 md:order-1">
         <header class="font-bold md:text-lg">COMPANY</header>
         <a
           href="/#onboard"

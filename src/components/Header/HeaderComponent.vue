@@ -1,12 +1,20 @@
 <script setup>
 import { ref } from "vue"
+import JoinOurCommunityPopUp from "./JoinOurCommunityPopUp.vue"
 
 const showMobile = ref(false)
+const showCommunityPopUp = ref(false)
 
 function toggleMobile() {
   showMobile.value === true
     ? (showMobile.value = false)
     : (showMobile.value = true)
+}
+
+function toggleCommunityPopUp() {
+  showCommunityPopUp.value === true
+    ? (showCommunityPopUp.value = false)
+    : (showCommunityPopUp.value = true)
 }
 </script>
 
@@ -62,9 +70,9 @@ function toggleMobile() {
         </div>
 
         <!-- community  -->
-        <a href="/application" class="text-base font-medium"
-          >Join Our Community</a
-        >
+        <button class="text-base font-medium" @click="toggleCommunityPopUp">
+          Join Our Community
+        </button>
 
         <!-- with dropdown -->
         <div class="relative group cursor-pointer">
@@ -177,4 +185,8 @@ function toggleMobile() {
       </div>
     </nav>
   </header>
+
+  <div v-if="showCommunityPopUp">
+    <JoinOurCommunityPopUp :toggleCommunityPopUp="toggleCommunityPopUp" />
+  </div>
 </template>
