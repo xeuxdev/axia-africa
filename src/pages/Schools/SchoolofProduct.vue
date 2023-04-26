@@ -1,5 +1,5 @@
 <script setup>
-import HeroSection from "../../components/Schools/HeroSection.vue"
+import HeroSection from "../../components/Schools/Products/HeroSection.vue"
 import ProductDesigner from "../../components/Schools/Products/ProductDesigner.vue"
 import ProductManager from "../../components/Schools/Products/ProductManager.vue"
 import ProductMarketer from "../../components/Schools/Products/ProductMarketer.vue"
@@ -12,15 +12,10 @@ import OurSuccessSection from "../../components/Home/OurSuccessSection.vue"
   <HeaderComponent />
 
   <main class="relative pt-28">
-    <!-- <PartnerSection /> -->
     <HeroSection />
     <ProductDesigner />
     <ProductManager />
     <ProductMarketer />
-    <!-- <CoursesSection /> -->
-    <!-- <AdvisorSection /> -->
-    <!-- <DiscoverSection /> -->
-    <!-- <FosterKnowledgeSection /> -->
     <OnboardSection />
     <OurSuccessSection />
   </main>
