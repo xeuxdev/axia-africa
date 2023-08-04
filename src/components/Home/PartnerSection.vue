@@ -16,7 +16,7 @@
         generation of tech talents waiting to be tapped.
       </p>
 
-      <a href="/partners" class="btn-primary mx-auto">Learn More</a>
+      <a href="/partners" class="btn-primary mx-auto" aria-label="Learn how to Partner with us">Learn More</a>
 
       <!-- doddle -->
       <img
